@@ -15,7 +15,7 @@ pkg_deps=(
   core/libpng
   core/libjpeg-turbo
   core/xz
-  uafgina/libtiff/4.0.3/2016101316515
+  uafgina/libtiff
 )
 pkg_build_deps=(
   core/file
@@ -31,7 +31,7 @@ pkg_build_deps=(
   core/libpng
   core/libjpeg-turbo
   core/xz
-  uafgina/libtiff/4.0.3/20161013165156
+  uafgina/libtiff
 )
 pkg_dirname=ImageMagick-${pkg_version}
 
