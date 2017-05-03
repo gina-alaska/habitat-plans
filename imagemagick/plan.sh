@@ -12,14 +12,14 @@ pkg_include_dirs=(include)
 pkg_deps=(
   core/zlib
   core/glibc
+  core/jbigkit
   core/libpng
   core/libjpeg-turbo
   core/xz
-  uafgina/libtiff
+  core/libtiff
 )
 pkg_build_deps=(
   core/file
-  core/zlib
   core/pkg-config
   core/coreutils
   core/diffutils
@@ -27,11 +27,6 @@ pkg_build_deps=(
   core/make
   core/gcc
   core/sed
-  core/glibc
-  core/libpng
-  core/libjpeg-turbo
-  core/xz
-  uafgina/libtiff
 )
 pkg_dirname=ImageMagick-${pkg_version}
 
